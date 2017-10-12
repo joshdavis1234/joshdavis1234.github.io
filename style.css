@@ -1,0 +1,95 @@
+body{
+  font-family: 'Merriweather', serif;
+  background-color: gainsboro;
+}
+
+/* start jumbotron*/
+
+.home{
+  background-image: url(banner2.jpg);
+  background repeat: no repeat;
+  background-size: cover;
+}
+
+.jumbotron img{
+  Height: 600px;
+}
+
+.jumbotron{
+  height: 500px;
+}
+
+#philosophy{
+  height: 570px;
+}
+
+.phase1{
+  background-image: url(phase1.jpg);
+  background repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#phase1a{
+  height:650px
+}
+
+.phase2{
+  background-image: url(phase2.jpg);
+  background repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#phase2a{
+  height: 500px
+}
+
+.phase3{
+    background-image: url(phase3.jpg);
+    background repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#phase3a{
+  height: 580px
+}
+
+h1{
+  color: red;
+  font-weight:bold;
+  font-family: times;
+}
+
+.display-3{
+  color: Gray;
+  font weight: 100;
+  font-size: 2.5rem;
+}
+/* end jumbotron*/
+
+
+/* start button on home*/
+.btn-primary {
+    color: white;
+    background-color: grey;
+    border-color: grey;
+    border-radius: 5px;
+}
+/* end button on home*/
+
+
+/* picture re-size*/
+.crop {
+ height: 300px;
+ width: 350px;
+ overflow: hidden;
+}
+.crop img {
+ height: 300px;
+ width: 350px;
+ border-style: solid;
+ border-width: thick;
+}
+/* picture re-size*/
